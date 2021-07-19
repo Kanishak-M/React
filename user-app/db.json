@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 2
+    },
+    {
+      "name": "kanishak",
+      "location": "Bhiwani",
+      "id": 4
+    },
+    {
+      "name": "kanishak",
+      "age": 22,
+      "id": 5
+    },
+    {
+      "name": "kanishak",
+      "age": 22,
+      "id": 6
+    },
+    {
+      "name": "kanishak Ma",
+      "age": "2",
+      "": "2",
+      "id": 7
+    },
+    {
+      "name": "kanishak",
+      "age": 22,
+      "id": 8
+    },
+    {
+      "name": "kanisha k",
+      "age": 22,
+      "id": 9
+    },
+    {
+      "name": "kanishak",
+      "age": 22,
+      "todayDate": "2021-07-17",
+      "id": 10
+    }
+  ]
+}
