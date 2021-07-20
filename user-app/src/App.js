@@ -12,7 +12,6 @@ function App() {
         <Header/>
         <br/>
         <UserForm/>
-        <UserForm/>
         <UserList/>
     </div>
   );
