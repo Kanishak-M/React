@@ -33,7 +33,7 @@ export default function UserList() {
                 })}
     </tbody>
   </table>
-            <button className="btn btn-primary">Hit me</button>
+            <button className="btn btn-primary">Hit</button>
         </div>
     )
 }
