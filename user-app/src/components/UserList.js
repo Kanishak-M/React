@@ -15,25 +15,29 @@ export default function UserList() {
     },[])
     
     return (
-        <div>
-              <table className="table">
+      <>
+    <table className="table table-dark table-striped">
     <thead>
       <tr>
         <th>Firstname</th>
         <th>Age</th>
         <th>Date</th>
+        <th>Skills</th>
+
       </tr>
     </thead>
     <tbody>                   
-     {users.map( (users, index) => {
+     {users.map( (users) => {
             return <tr key ={users.id}>
                         <td>{users.name}</td>
                         <td>{users.age}</td>
+                        <td>{users.todayDate}</td>
+                        <td>{users.skills}</td>
                     </tr>
                 })}
     </tbody>
   </table>
             <button className="btn btn-primary">Hit</button>
-        </div>
+      </>
     )
 }

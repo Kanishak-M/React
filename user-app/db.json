@@ -1,9 +1,6 @@
 {
   "users": [
     {
-      "id": 2
-    },
-    {
       "name": "kanishak",
       "location": "Bhiwani",
       "id": 4
@@ -19,12 +16,6 @@
       "id": 6
     },
     {
-      "name": "kanishak Ma",
-      "age": "2",
-      "": "2",
-      "id": 7
-    },
-    {
       "name": "kanishak",
       "age": 22,
       "id": 8
@@ -35,10 +26,26 @@
       "id": 9
     },
     {
-      "name": "kanishak",
+      "name": "kanu",
       "age": 22,
-      "todayDate": "2021-07-17",
-      "id": 10
+      "todayDate": "2021-07-20",
+      "skills": "HTML",
+      "id": 11
+    },
+    {
+      "name": "kanu",
+      "age": 22,
+      "todayDate": "2021-07-20",
+      "skills": "CSS",
+      "id": 12
+    },
+    {
+      "name": "Kanishak Mahendiratta!!",
+      "age": "22",
+      "": "22",
+      "todayDate": "2021-07-21",
+      "skills": "JS",
+      "id": 13
     }
   ]
 }
