@@ -29,7 +29,7 @@ export default function UserForm() {
             {userName.name}  and <br/>
             <input value={userName.name}  onChange ={userEventHandler}/> <br/>
             <input value={userName.age} onChange={userAgeEventHandler}/> <br/>
-            <input type="date"  onChange={userDateChangeHAndler} />
+            <input type="date"  onChange={userDateChangeHAndler} /> <br/>
             <button onClick={save}>Save</button>
         </div>
     )
