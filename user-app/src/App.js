@@ -1,21 +1,31 @@
-import './App.css';   
 import Header from './components/Header';
 import UserForm from './components/UserForm';
 import UserList from './components/UserList';
+import Nav from './components/Nav'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
+import './App.css';   
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-        hello World
-        <Header/>
-        <br/>
-        <UserForm/>
-        <br/>
-        <UserList/>
-    </div>
+    <Router>
+        <Nav/>
+        <Switch>
+          <Route path="/about">
+            <Header />
+          </Route>
+            <Route path="/users">
+            <UserForm />
+            <UserList/>
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 
-export default App;
+

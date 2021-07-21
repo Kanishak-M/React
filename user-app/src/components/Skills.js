@@ -1,12 +1,18 @@
-import React from 'react'
-
+import React, {useEffect ,useState} from 'react'
+import axios from 'axios'
 export default function Skills() {
-    return (
+    const[option ,setOptions] = useState([])
+    useEffect(()=>{
+        const getOptionValue = axios.get('http://localhost:4200/skills')
+        getOptionValue.then((res)=>{setOptions(res.data)})
+        .catch((err)=>{console.log(err)})
+    },[])
+    return ( 
         <>
-        <option value="base">Skills</option>
-        <option value="HTML">HTML</option>
-        <option value="CSS">CSS</option>
-        <option value="JS">JS</option>
+        {option.map((val,index) => {
+            return <option value={val} key={index}>{val}</option>
+        }
+        )}
         </>
     )
 }
